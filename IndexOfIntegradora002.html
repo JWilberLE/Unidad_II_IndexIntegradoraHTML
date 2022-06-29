@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Shoe Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">  <!-- Inicio del contenedor -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logoindex.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Shoe Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+                    <!-- Hacer la lista de navegacion -->
+        
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" href="#">Mujeres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Hombres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Niños</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Buscar</a></li>
+                    </ul>
+                </div> <!-- cierre del div defecto menu -->
+            </div>
+            <!-- cierre del div contenedor principal -->
+        </nav>
+    </header>
+    <hr>
+    <section>
+
+        <!-- Slide de imagenes -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> <!-- contenedor principal de las imagenes -->
+            <div class="carousel-inner"> <!-- contenedor interno -->
+                <div class="carousel-item active"> <!-- imagen 1 -->
+                    <img src="img/panoramica1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item"> <!-- imagen 2 -->
+                    <img src="img/panoramica2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item"> <!-- imagen 3 -->
+                    <img src="img/panoramica3.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item"> <!-- imagen 4 -->
+                    <img src="img/panoramica4.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <!-- Botones de atras y adelante -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        <!-- fin del slide -->
+        
+
+        <!-- elementos para mostrar los cuadros de imagenes -->
+        <div class="container p-5">
+            <div class="row">
+
+                <!-- Crear 3 columnas -->
+                <div class="col-lg-4"> <!-- Columna 1 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/adidaszapatos1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Conoce los nuevos Adidas, que te haran dar un flow extremadamente espectacular</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4"> <!-- Columna 2 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/nikezapatos1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Conoce los Nike del futuro, son los primeros zapatos que se ajustan a tus pies, brindandote una comodidad inigualable</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4"> <!-- Columna 3 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/pumazapatos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Ven y conoce los nuevos Tenis Pumas ademas de dar una comodidad muy satisfactoria a tus pies, tiene un diseño muy llamativo y cool.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="container-fluid bg-light text-center p-5">
+        
+        <p>Todos los derechos reservados 2022</p>
+
+    </footer>
+    </body>
+</html>
